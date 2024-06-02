@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #fdf7e4;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* background-color: #333; */
+}
+
+#hero,
+#about,
+#skill {
+  margin-bottom: 20px;
+}
+
+/* Navbar Style */
+#navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #faeed1;
+}
+
+#navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  background-color: #faeed1;
+}
+
+#navbar-menu-item {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #faeed1;
+}
+
+#logo-navbar {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+/* End Navbar Style */
+
+/* Hero Style */
+#hero {
+  margin: 50px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+#hero-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+#description-hero {
+  width: 500px;
+  text-align: start;
+}
+/* End Hero Style */
+
+/* About Style */
+#about {
+  margin: 50px 0;
+  padding: 5px;
+  width: 100%;
+}
+
+#about-image {
+  width: 300px;
+  height: 200px;
+}
+/* End About Style */
+
+/* Skill Style */
+#skill {
+  margin: 50px 0;
+  padding: 5px;
+  width: 100%;
+}
+
+.skill-content-container {
+  border: 1px solid #333;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #faeed1;
+}
+
+.card {
+  border: 2px solid #333;
+  width: 170px;
+  height: 170px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.logo-skill {
+  width: 100px;
+  height: 100px;
+}
+/* End Skill Style */
+
+/* Projects Style */
+#projects {
+  margin: 50px 0;
+  padding: 5px;
+  width: 100%;
+}
+
+.projects-content-container {
+  border: 1px solid #333;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #faeed1;
+}
+
+.project-card {
+  border: 2px solid #333;
+  width: 300px;
+  height: 170px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+/* End Projects Style */
+
+/* Footer Style */
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #faeed1;
+}
+/* End Footer Style */
