@@ -30,3 +30,16 @@ function scrollFunction() {
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
+
+// Typing effect
+const text = "Sajudin Ma'ruf";
+let index = 0;
+const spanElement = document.getElementById("typed-text");
+
+function typeEffect() {
+  if (index < text.length) {
+    spanElement.textContent += text.charAt(index);
+    index++;
+    setTimeout(typeEffect, 2000); // Adjust the typing speed here (in milliseconds)
+  }
+}
