@@ -29,8 +29,8 @@
   align-items: center;
   justify-content: space-around;
   padding: 20px;
-  background-color: #fafafa;
-  border-bottom: 1px solid #333;
+  background-color: #f1f1f1;
+  /* border-bottom: 1px solid #333; */
   /* position: fixed;
   top: 0;
   width: 100%;
@@ -179,8 +179,8 @@
   justify-content: space-around;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #fafafa;
-  border-top: 1px solid #333;
+  background-color: #f1f1f1;
+  /* border-top: 1px solid #333; */
 }
 /* End Footer Style */
 
