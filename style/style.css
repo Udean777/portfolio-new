@@ -124,6 +124,7 @@
   display: flex;
   transition: 0.2s ease;
   background-color: #fafafa;
+  cursor: pointer;
 }
 
 .card:hover {
